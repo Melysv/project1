@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.logoletras {
+  font-family: 'Syncopate', sans-serif;
+  font-size: 40px;
+  outline: none;
+  text-decoration: none;
+  color: darkgreen;
+  font-weight: 700;
+}
+
+.logoletras:hover {
+  color: red;
+}
+
+.carru {
+  display: flex;
+  justify-content: center;
+}
+
+#carouselExampleCaptions {
+  width: 50%;
+  height: auto;
+}
+
+.profesionales {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  justify-items: center;
+}
+
+.profesional {
+  width: 80%;
+}
+
+.titulo1 {
+  text-align: center;
+  margin: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 300%;
+}
+
+.titulo2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.texto1 {
+  text-align: center;
+  margin: 40px;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+
+.boxcontacto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  justify-items: center;
+  margin: 50px;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.titulo3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
+}
+
+.btn-enviar {
+  margin: 5px;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 3px;
+  border-radius: 8px;
+}
+
+.btn-enviar:hover {
+  background-color: darkgreen;
+  color: #FFFFFF;
+  transform: scale(1.1);
+  border-color: darkgreen;
+}
+
+.btn-ingreso {
+  margin: 5px;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 3px;
+  border-radius: 8px;
+}
+
+.btn-ingreso:hover {
+  background-color: darkgreen;
+  color: #FFFFFF;
+  transform: scale(1.1);
+  border-color: darkgreen;
+}
+
+.ingreso1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.motivodeconsulta {
+  margin-bottom: 10px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.icono1 {
+  width: 40px;
+  height: 40px;
+  margin: 8px;
+}
+
+.texto1 {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+
+.articlecontact {
+  display: flex;
+  justify-content: center;
+}
+
+.imagen1 {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+
+.rosario1 {
+  font-size: 20px;
+}
+
+.footer-style {
+  width: 100%;
+  background-color: #F8F9FA;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
+}

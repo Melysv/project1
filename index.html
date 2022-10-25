@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;600&family=Syncopate:wght@700&display=swap');
+    </style>
+    <title>MV Nutrición</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a href="#inicio" class="logoletras" id="inicio">MVN //</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#nuestrosprofesionales1">Nuestros profesionales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#comotrabajamos">¿Cómo trabajamos?</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Nuestros espacios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Rosario</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Online</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="carru">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/sala de espera.jpg" class="d-block w-100" alt="Sala de espera">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Sala de espera</h5>
+              <p>En ella te espera nuestra recepcionista quien además se encarga de agendar turnos. Contamos con una sala totalmente acondicionada con aire frío/calor, máquina de café y toilet.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/consultorio.jpg" class="d-block w-100" alt="Consultorio">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Consultorio</h5>
+              <p>Un espacio pensando para la comodidad del paciente. Espacio equipado con aire frío/calor.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/bioimpedancia.jpg" class="d-block w-100" alt="Bioimpedancia">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Bioimpedancia</h5>
+              <p>Tecnología de última generación, especializado para determinar composoción corporal y lograr realizar un seguimiento a largo plazo del paciente.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+      
+      <h2 class="titulo1" id="nuestrosprofesionales1">Nuestros profesionales</h2>
+      <div class="profesionales">
+        <img src="./img/Melissa.jpg" alt="Lic. Melissa Villarruel" class="profesional">
+        <img src="./img/Susana.jpg" alt="Lic. Susana Oria" class="profesional">
+        <img src="./img/Virginia.jpg" alt="Lic. Virginia Riccobelli" class="profesional">
+      </div>
+      <div class="profesionales">
+        <h3 class="titulo2">Lic. Melissa Villarruel</h3>
+        <h3 class="titulo2">Lic. Susana Oria</h3>
+        <h3 class="titulo2">Lic. Virginia Riccobelli</h3>
+      </div>
+
+      <div class="comotrabajamos1">
+        <div><h2 class="titulo1" id="comotrabajamos">¿Cómo trabajamos?</h2>
+        <p class="texto1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga eos neque odio est a voluptatum? Pariatur, vero similique. Iure, eius architecto nostrum beatae in blanditiis ut unde natus quaerat vel quis illo, sit optio quo nihil ipsam ab distinctio voluptatum nulla iste vero? Libero sapiente, nisi deserunt reiciendis odit earum, dicta minus hic similique ratione, repudiandae consectetur accusantium? Dolorem minus voluptatum error sed nulla quod cupiditate necessitatibus id molestiae ea illo consectetur, dignissimos nam, dolore laborum, numquam impedit a dolorum praesentium repellendus. Laudantium numquam assumenda minus qui error tempore iusto consequatur delectus aut ratione odit nostrum accusantium, dignissimos ullam deleniti.</p></div>
+      </div>
+
+
+    <div class="boxcontacto">
+        <div class="contacto"><h3 class="titulo3">Contacto</h3>
+          <article class="article"><label for="nombre">Nombre:</label><input type="text" name="nombre" id="nombre">
+            <label for="email">Correo electrónico:</label><input type="email" name="email" id="email">
+            <label for="escribir">Motivo de consulta:</label><textarea name="escribir" id="escribir" cols="25" rows="5" class="motivodeconsulta"></textarea>
+            <input type="button" value="Enviar" class="btn-enviar">
+            <p class="ingreso1">Si ya sos paciente, ingresá <a href="https://login-weld-alpha.vercel.app/">aquí</a>.</p></article></div>
+        
+        <div class="section"><h3 class="titulo3">Ubicación</h3>
+          <article class="articlecontact">
+            <div class="cajacontacto"><p class="texto1"><img src="./img/icons8-address-100_preview_rev_1.png" alt="Dirección" class="icono1">Calle Sin Nombre 1212</p>
+            <p class="texto1"><img src="./img/icons8-mail-100_preview_rev_1.png" alt="E-mail" class="icono1">mvnutricion@gmail.com</p>
+            <p class="texto1"><img src="./img/icons8-featurephone-100_preview_rev_1.png" alt="Teléfono" class="icono1">341-9090909</p></div>
+            <div class="cajaiconos"><a href="#"><img src="./img/facebook.png" alt="Facebook" class="imagen1"></a>
+            <a href="#"><img src="./img/instagram.png" alt="Instagram" class="imagen1"></a>
+            <a href="#"><img src="./img/tiktok.png" alt="TikTok" class="imagen1"></a></div></article></div>
+    </div>
+
+    <footer class="footer-style">
+      <div class="footer-box"><a href="#inicio" class="logoletras" id="inicio">MVN</a></div>
+      <div class="footer-box"><small>Copyright &copy; 2022 <b>MVNutrición</b> - Todos los derechos reservados</small></div>
+    </footer>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
